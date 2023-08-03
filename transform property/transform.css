@@ -1,0 +1,11 @@
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+#Translated{
+    transform: perspective(15px) translateZ(-15px) rotate(45deg);
+}

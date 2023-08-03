@@ -1,0 +1,54 @@
+.box{
+    height:100px;
+    width: 200px;
+    border:5px solid black;
+    /* padding-left: 90px;
+    padding-top: 40px; */
+    /* text-align: center; */
+    margin: 30px;
+    box-sizing: border-box;
+    font-size:xx-large;
+    text-align: center;
+    /* font-family:'Courier New', Courier, monospace; */
+    font-style:normal;
+    /* text-emphasis-color: red; */
+}
+#org{
+    background-color: orange;
+}
+#wht{
+    background-color: white;
+}
+#grn{
+    background-color: green;
+}
+
+
+.box1{
+    border:2px solid black;
+    height:200px; 
+    width:300px;
+    background-image: linear-gradient(to top right ,red,yellow);
+    background-image: linear-gradient(220deg,red,blue);
+    background-image: linear-gradient(to top left, rgb(148, 136, 180),rgb(18, 189, 236));
+    background-image: radial-gradient(circle,red ,blue,yellow);
+    background-image: radial-gradient(circle,rgb(79, 225, 101) 5% ,blue 10%,rgb(225, 189, 209) 50%);
+}
+
+h1{
+    text-shadow: 3px 3px rgb(182, 182, 13);
+    /* border: 2px solid black; */
+    height: 300px;
+    width: 300px;
+    background-color: yellow;
+    box-shadow: 5px 5px  green , -5px -5px black;
+}
+
+.prince{
+    max-height: 300px;
+    max-width:auto;
+    overflow:auto;
+
+    position: static;
+    border: 2px solid black;
+}

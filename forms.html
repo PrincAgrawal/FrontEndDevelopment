@@ -1,24 +1,180 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <title>Full Stack App</title>
+  <link rel="stylesheet" type="text/css" href="abc.css">
+  <style>
+    .button{
+    background-color: rgb(4, 236, 213);
+    margin-left: 40%;
+    margin-right: 40%;
+  }
+
+  .button:hover{
+    background-color: aquamarine;
+  }
+
+  fieldset{
+    border: 2px solid black;
+  }
+
+  body{
+    background-color:azure;
+    font-weight:500;
+  }
+  </style>
 </head>
 <body>
-    <!-- <label for="username">USERNAME:</label>
-    <input type="text" name="Username"> <br>
-    <input type="checkbox"><br>
-    <input type="radio"> -->
-    <label for="Username">Username:</label>
-    <input type="text" name="Username">
+  <!-- <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  wow this is my first changes in github repository wow -->
+  <!-- <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Welcome to Our Full Stack App</h1>
+        <p>Experience the power of full-stack development</p>
+        <a href="#" class="btn">Get Started</a>
+      </div>
+    </section>
+
+    <section class="features">
+      <h2>Key Features</h2>
+      <div class="feature">
+        <h3>Responsive Design</h3>
+        <p>Our app is fully responsive and optimized for all devices.</p>
+      </div>
+      <div class="feature">
+        <h3>Server-side Development</h3>
+        <p>We handle the server-side logic to process requests and handle data.</p>
+      </div>
+      <div class="feature">
+        <h3>Database Integration</h3>
+        <p>We store and retrieve data from a database for seamless functionality.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Full Stack App. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script> -->
+
+  <form action="https://www.thecodehelp.in/" target="_blank">
+    <h1 style="text-align: center;">Application For Permission To Date My Daughter</h1>
     <br>
+    <h3 style="margin-left: 10px;">Note Form is to be completed at least 21 days prior to date</h3>
+    <fieldset>
+      <legend>Personal Details</legend>
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Enter Your Name" required >
+      <br><br>
+      <label for="add">Address:</label>
+      <input type="text" id="add" placeholder="Enter Address here"  >
+      <br><br>
+      <label for="mail">Email:</label>
+      <input type="email" id="mail" placeholder="Enter Your Mail id" required>
+      <br><br>
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" placeholder="Enter 10 digit number" required  >
+      <br><br>
+      <label for="iq">IQ:</label>
+      <input type="tel" id="iq" placeholder="Enter IQ level" >
+      <br><br>
+      <label for="gender">Gender:</label>
+      <br>
+      <!-- <select name="gender">
+        <option value="1" name="gender" disabled>select</option>
+        <option value="2" name="gender">Male</option>
+        <option value="3" name="gender">Female</option>
+        <option value="4" name="gender">Not to say</option>
+      </select> -->
+      <input type="radio" name="gender" id="gender">
+      <label for="gender">Male</label><br>
+      <input type="radio" name="gender" id="gender">
+      <label for="gender">Female</label><br>
+      <input type="radio" name="gender" id="gender">
+      <label for="gender">Other</label>
+      <br><br>
+
+      <!-- this is my first form using html and css -->
+      <label for="dob">Date Of Birth :</label>
+      <input type="date" name="dob" id="dob" >
+      <br>
+      <br>
+    </fieldset>
+
     <br>
-    <label for="password">Password: </label>
-    <input type="password" name="password">
+    <fieldset>
+      <h5>Check All That Apply</h5>
+      <br>
+      <input type="checkbox" name="Check" id="check">
+      <label for="Check">I have Enough knowledge That you require </label>
+      <br>
+      <input type="checkbox" name="Check" id="check">
+      <label for="Check">My github profile is Well Organized </label>
+      <br>
+      <input type="checkbox" name="Check" id="check">
+      <label for="Check">My coding profile on GFG & Leetcode is Done </label>
+      <br>
+      <input type="checkbox" name="Check" id="check">
+      <label for="Check">My Linkedin profile Is also Best </label>
+      <br>
+      <input type="checkbox" name="Check" id="check">
+      <label for="Check">I have Work Experience</label>
+      <br>
+      <input type="checkbox" name="Check" id="check">
+      <label for="Check">I am a graduate.</label>
+      <br>
+      <br>
+    </fieldset>
     <br>
+    <fieldset>
+      <label for="perm">Political Permission:</label>
+      <select name="perm" id="perm">
+        <option value="1" name="perm" disabled>select</option>
+        <option value="2" name="perm">Yes</option>
+        <option value="3" name="perm">No </option>
+        <option value="4" name="perm">Not to say</option>
+      </select>
+      <br>
+      <br>
+      <label for="edu">Education Level Completed:</label>
+      <select name="edu" id="edu">
+        <option value="1" name="edu" disabled>select</option>
+        <option value="2" name="edu">University</option>
+        <option value="3" name="edu">School </option>
+        <option value="4" name="edu">Not to say</option>
+      </select>
+      <br><br>
+    </fieldset>
     <br>
-    <input type="button" value="submit">
+    <fieldset>
+      <legend>Essay Section</legend>
+      <br>
+      <p>In 50 words or more explain why you want to date my daughter:</p>
+      <br>
+      <textarea name="words" id="words" cols="50" rows="10" placeholder="Enetr Text Here"></textarea>
+      <br><br>
+      <p>Please upload Contact Details for 2 refrences:</p>
+      <br>
+      <textarea name="words" id="words" cols="50" rows="10" placeholder="Enetr Text Here"></textarea>
+      <br><br>
+      <p>Upload Police clearance certificate,Bank statements and medical Certificates here:</p>
+      <input type="file" multiple>
+    </fieldset>
+
+    <br>
+    <button class="button">Send Your Application</button>
+  </form>
 </body>
 </html>
